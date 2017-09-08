@@ -8,8 +8,11 @@ For educational use, it is helpful to have a simple image file format that can b
 [BYTE (Height)]
 [BYTE (Value for Row 1 Column 1)]
 [BYTE (Value for Row 1 Column 2)]
-...```
+...
+```
+
 Here is an example in decimal:
+
 ```
 8 8
 0 5 10 15 15 10 5 0
@@ -19,5 +22,8 @@ Here is an example in decimal:
 0 5 10 15 15 10 5 0
 0 5 10 15 15 10 5 0
 0 5 10 15 15 10 5 0
-0 5 10 15 15 10 5 0```
+0 5 10 15 15 10 5 0
+...
+```
+
 Every byte is added to the file sequentially. There are no explicit new line characters in the file format, only byte values.
